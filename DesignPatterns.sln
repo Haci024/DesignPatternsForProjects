@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChinOfResponsibilityPattern", "ChinOfResponsibilityPattern", "{F56C4EA3-D124-4BF6-911E-3DC4D0946445}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "ChainOfResponsibility\ChainOfResponsibility\Presentation.csproj", "{27CF5A83-0A82-486E-A009-AE2730947A26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{B04CC656-66CE-4036-B6BF-EC1844B1D360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{023BF1BA-C1AC-4A06-A3F6-83BDFC8AC4B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplaayeMethodDesignPattern", "TemplaayeMethodDesignPattern", "{6AF11AD8-BCAF-48FE-A282-F1EDD94E502D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverDesignPattern", "ObserverDesignPattern", "{B5D2CD5F-F825-41F7-9236-AB8593175B33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWorkDesignPattern", "UnitOfWorkDesignPattern", "{61C24A53-D97F-42E5-9A5C-26336E70AE80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryPattern", "RepositoryPattern", "{1196DEA8-6EF9-4840-9551-247BAB3F511E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositeDesignPattern", "CompositeDesignPattern", "{6461AD66-20B1-450B-9F98-A28EBDBBBB29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDesignPattern", "MediatorDesignPattern", "{8F5DCEA9-6DC3-437A-84B1-47C19415BF51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IteratorDesginPattern", "IteratorDesginPattern", "{D28D064D-1E09-4E82-B93F-FC09EF6D6BCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadeDesignPattern", "FacadeDesignPattern", "{25B62E41-09E7-413C-AF3D-5AFE81E9A49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorDesignPattern", "DecoratorDesignPattern", "{79A4DE86-90A1-4360-AA7A-532DA97C874F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CF5A83-0A82-486E-A009-AE2730947A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CF5A83-0A82-486E-A009-AE2730947A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CF5A83-0A82-486E-A009-AE2730947A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CF5A83-0A82-486E-A009-AE2730947A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27CF5A83-0A82-486E-A009-AE2730947A26} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
+		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
+		{B04CC656-66CE-4036-B6BF-EC1844B1D360} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90505FD6-745D-4B75-9574-31098603BCBC}
+	EndGlobalSection
+EndGlobal
