@@ -5,12 +5,6 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChinOfResponsibilityPattern", "ChinOfResponsibilityPattern", "{F56C4EA3-D124-4BF6-911E-3DC4D0946445}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "ChainOfResponsibility\ChainOfResponsibility\Presentation.csproj", "{27CF5A83-0A82-486E-A009-AE2730947A26}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{B04CC656-66CE-4036-B6BF-EC1844B1D360}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{023BF1BA-C1AC-4A06-A3F6-83BDFC8AC4B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplaayeMethodDesignPattern", "TemplaayeMethodDesignPattern", "{6AF11AD8-BCAF-48FE-A282-F1EDD94E502D}"
@@ -31,39 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FacadeDesignPattern", "Faca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorDesignPattern", "DecoratorDesignPattern", "{79A4DE86-90A1-4360-AA7A-532DA97C874F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27CF5A83-0A82-486E-A009-AE2730947A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27CF5A83-0A82-486E-A009-AE2730947A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27CF5A83-0A82-486E-A009-AE2730947A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27CF5A83-0A82-486E-A009-AE2730947A26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B04CC656-66CE-4036-B6BF-EC1844B1D360}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{27CF5A83-0A82-486E-A009-AE2730947A26} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
-		{FBE8DB2F-4AED-4276-AC9B-0BE39BC107B4} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
-		{B04CC656-66CE-4036-B6BF-EC1844B1D360} = {F56C4EA3-D124-4BF6-911E-3DC4D0946445}
-		{D3980DE6-56A1-41CC-9E73-472DEE0FEEF9} = {1196DEA8-6EF9-4840-9551-247BAB3F511E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90505FD6-745D-4B75-9574-31098603BCBC}
